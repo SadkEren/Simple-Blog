@@ -15,15 +15,24 @@
                         <label for="name">Title</label>
                     </div>
                     <div class="form-floating">
-                        <textarea class="form-control" name="content" id="name" type="text"  required> {{$yaz->content}}</textarea>
+                        <textarea class="form-control" name="content" maxlength="255" id="name" type="text"  required> {{$yaz->content}}</textarea>
                         <label for="name">Content (255)</label>
-                    </div>
-                    <div class="form-floating">
+                    </div><br>
+                    <div><br>
+                        <option selected>Select Category</option>
+                        <select class="form-select"  name="categories_name" >
+                            @foreach($yaz2 as $a)
+                            <option  >{{$a->name}}</option>
+                            @endforeach
+                        </select>
+                    </div><br>
+                    <div class="form-floating"><br>
                         <input class="form-control" name="imageEntry" id="name" value="{{$yaz->imageEntry}}" required type="file"  />
                         <label for="name">Select File</label>
                         <br>
                         <img src="/images/{{ $yaz->imageEntry }}" style="width: 100px; height:100px">
                     </div>
+
                     <br>
                     <button class="btn btn-success bg-primary" type="submit">Save</button>
                 </form>

@@ -13,7 +13,7 @@ class Entry extends Model
     protected $table = 'entries';
 
     protected $guarded = [];
-    //protected $fillable = ['title','content','imageEntry','user_name','user_id'];
+    //protected $fillable = ['title','content','imageEntry','user_name','user_id','categories_id','categories_id'];
 
 
 }

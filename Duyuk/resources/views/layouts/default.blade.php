@@ -4,7 +4,7 @@
         @include('includes.head')
     </head>
 <body>
-
+    @if(Auth::user())
     <!-- Header-->
     @include('includes.header')
 
@@ -14,5 +14,6 @@
     <!-- Footer-->
     @include('includes.footer')
 
+    @endif
 </body>
 </html>
