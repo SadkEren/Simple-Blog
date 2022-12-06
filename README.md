@@ -10,8 +10,10 @@ MainIndex
 nav-bar
 ![image](https://user-images.githubusercontent.com/72550251/203449005-6b553af2-bc8b-40a0-b253-303103497a52.png)
 profile
-![image](https://user-images.githubusercontent.com/72550251/203449032-820cf0ef-7cc8-43b8-b5fb-78714992513f.png)
+![423](https://user-images.githubusercontent.com/72550251/205952761-9ebed35f-0fdf-4d99-8d98-2934ef839d5a.png)
 edit-profile-duyuk
 ![image](https://user-images.githubusercontent.com/72550251/203449059-5d41334c-3300-4705-b687-a80d784cc4b5.png)
 entry
 ![digeriniSil](https://user-images.githubusercontent.com/72550251/205952134-e6a1b637-4472-4b8a-b0f2-ab612ae17fd5.png)
+---
+![2](https://user-images.githubusercontent.com/72550251/205952768-e2bac063-1735-4582-9e44-063f34910202.png)
